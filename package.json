@@ -1,0 +1,36 @@
+{
+  "name": "jted1page",
+  "version": "1.0.0",
+  "description": "Initial setup of the webpage.  Created with TypeScript, Webpack, and React.",
+  "main": "index.tsx",
+  "scripts": {
+    "dev": "webpack serve --mode development",
+    "pro": "webpack --mode production"
+  },
+  "keywords": ["React", "Webpack", "TypeScript", "React-Hook-Form"],
+  "author": "Craig Johnson",
+  "license": "ISC",
+  "dependencies": {
+    "@hookform/resolvers": "^3.9.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-hook-form": "^7.53.0",
+    "zod": "^3.23.8"
+  },
+  "devDependencies": {
+    "@types/node": "^22.7.4",
+    "@types/react": "^18.3.11",
+    "@types/react-dom": "^18.3.0",
+    "css-loader": "^7.1.2",
+    "file-loader": "^6.2.0",
+    "style-loader": "^4.0.0",
+    "ts-loader": "^9.5.1",
+    "typescript": "^5.6.2",
+    "url-loader": "^4.1.1",
+    "webpack": "^5.95.0",
+    "webpack-cli": "^5.1.4",
+    "webpack-dev-server": "^5.1.0"
+  }
+}
+
+
