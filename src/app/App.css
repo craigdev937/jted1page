@@ -1,7 +1,23 @@
-body {
-    background: steelblue;
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+:root {
+    --white: hsl(0, 0%, 100%);
+    --gold: rgb(255, 229, 81);
+    --blue: hsl(207, 44%, 49%);
+    --gray: hsl(0, 0%, 66%);
+    --black: hsl(0, 0%, 0%);
 }
 
+*, *::before, *::after {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Inter", sans-serif;
+    background: var(--gray);
+}
 
 
 
