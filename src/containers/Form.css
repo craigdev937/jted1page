@@ -4,4 +4,13 @@
     place-items: center;
 }
 
+.submit {
+    background: var(--gold);
+    height: 2.5rem;
+    width: 11rem;
+    padding: .4rem;
+    border-radius: 20px;
+    font-size: 1.1rem;
+}
+
 

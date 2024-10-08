@@ -1,13 +1,11 @@
 import React from "react";
 import "./App.css";
-import { Navbar } from "../components/Navbar";
-import { Form } from "../containers/Form";
+import { Main } from "../containers/Main";
 
 export const App = () => {
     return (
         <React.Fragment>
-            <Navbar />
-            <Form />
+            <Main />
         </React.Fragment>
     );
 };

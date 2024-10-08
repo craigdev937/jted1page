@@ -12,8 +12,9 @@ export const Form = () => {
                 <label>E-mail:</label>
                 <input type="email" />
                 <label>Phone Number:</label>
-                <input type="number" />
-                <input type="submit" value="Submit" />
+                <input type="tel" />
+                <input className="submit" 
+                    type="submit" value="Submit" />
             </form>
         </React.Fragment>
     );
